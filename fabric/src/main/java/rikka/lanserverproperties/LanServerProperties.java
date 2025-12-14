@@ -17,8 +17,8 @@ public class LanServerProperties {
 	 * These are the lambda names used for Mixin injection, should be consistent in all implementations.
 	 */
 	// m_279789_(Lnet/minecraft/client/server/IntegratedServer;Lnet/minecraft/client/gui/components/Button;)V
-	public static final String mixin_startButton_OnClick = "method_19851(Lnet/minecraft/client/server/IntegratedServer;Lnet/minecraft/client/gui/components/Button;)V";
+	public static final String mixin_startButton_OnClick = "method_19851";
 
 	// m_257075_(Lnet/minecraft/client/gui/components/Button;Ljava/lang/String;)V
-	public static final String mixin_portEditBox_OnChange = "method_47416(Ljava/lang/String;)V";
+	public static final String mixin_portEditBox_OnChange = "method_47416";
 }
